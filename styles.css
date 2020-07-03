@@ -1,0 +1,164 @@
+body {
+  background-color: #a6dcef;
+}
+
+.box {
+  display: flex;
+  position: absolute;
+  top: 60%;
+  left: 15%;
+}
+
+.ul-rainbow {
+  position: relative;
+  margin-top: 19%;
+  padding-left: 16%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.ul-rainbow li {
+  animation: rainbowAnimation 5s infinite alternate;
+  animation-delay: 2.5s;
+}
+
+.rainbow {
+  position: relative;
+}
+
+.ul-rainbow2 {
+  position: relative;
+  left: 45%;
+  bottom: 12.3rem;
+  height: 180px;
+  overflow: hidden;
+}
+
+.ul-rainbow2 li {
+  animation: rainbowAnimation2 5s infinite alternate;
+    animation-delay: 2.5s;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-radius: 150%;
+  border: 20px solid #000000;
+  border-bottom-color: transparent !important;
+  border-left-color: transparent !important;
+  position: absolute;
+  transform: rotate(-45deg);
+}
+
+ul li:nth-child(7) {
+  width: 160px;
+  height: 160px;
+  border-color: red;
+  margin: 90px;
+}
+
+ul li:nth-child(6) {
+  width: 190px;
+  height: 190px;
+  border-color: #FF7F00;
+  margin: 75px;
+}
+
+ul li:nth-child(5) {
+  width: 220px;
+  height: 220px;
+  border-color: #FFFF00;
+  margin: 60px;
+}
+
+ul li:nth-child(4) {
+  width: 250px;
+  height: 250px;
+  border-color: #00FF00;
+  margin: 45px;
+}
+
+ul li:nth-child(3) {
+  width: 280px;
+  height: 280px;
+  border-color: #0000FF;
+  margin: 30px;
+}
+
+ul li:nth-child(2) {
+  width: 310px;
+  height: 310px;
+  border-color: #2E2B5F;
+  margin: 15px;
+}
+
+ul li:nth-child(1) {
+  width: 340px;
+  height: 340px;
+  border-color: #8B00FF;
+}
+
+@keyframes rainbowAnimation {
+  0% {
+    transform: rotate(-45deg);
+  }
+
+  25% {
+    transform: rotate(135deg);
+  }
+
+  50% {
+    transform: rotate(135deg);
+  }
+
+  75% {
+    transform: rotate(135deg);
+  }
+
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes rainbowAnimation2 {
+  0% {
+    transform: rotate(-45deg);
+  }
+
+  25% {
+    transform: rotate(-45deg);
+  }
+
+  50% {
+    transform: rotate(135deg);
+  }
+
+  75% {
+    transform: rotate(-45deg);
+  }
+
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+
+[class^=cloud] {
+  color: white;
+  opacity: 80%;
+  margin: 0;
+}
+
+.cloud-small {
+  transform: scale(4);
+  opacity: 100%;
+}
+
+.cloud-medium {
+  transform: scale(5.5);
+  padding-right: 2rem;
+}
+
+.cloud-big {
+  transform: scale(7);
+}
