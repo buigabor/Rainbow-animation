@@ -4,7 +4,8 @@ Made a rainbow animation with plain CSS and HTML. Main goal was to practice anim
 
 # Demo
 
-<div style="width:360px;max-width:100%;"><div style="height:0;padding-bottom:46.11%;position:relative;"><iframe width="360" height="166" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/47ec51"></iframe></div><p><a href="https://imgflip.com/gif/47ec51"></a></p></div>
+![47ec51](https://user-images.githubusercontent.com/65706872/86591564-1cf26700-bf92-11ea-865b-428827a3beb8.gif)
+
 
 # Technologies Used
 
